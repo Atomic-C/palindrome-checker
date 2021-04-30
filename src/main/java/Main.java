@@ -11,7 +11,7 @@ public class Main {
         String reversedString = "";
         System.out.println("You've inserted: " + stringHolder); // Output user input "RACECAR"
 
-        int stringSize = stringHolder.length(); // 3
+        int stringSize = stringHolder.length(); // 2
 
         for (int i = stringSize-1; i >= 0; i--) {
             reversedString = reversedString + stringHolder.charAt(i);
