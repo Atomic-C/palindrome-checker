@@ -7,7 +7,7 @@ public class Main {
         System.out.println("Insert a word");
 
 
-        String stringHolder = userInput.nextLine(); // Read user input "RACECAR"
+        String stringHolder = userInput.nextLine().toLowerCase(); // Read user input "RACECAR"
         String reversedString = "";
         System.out.println("You've inserted: " + stringHolder); // Output user input "RACECAR"
 
