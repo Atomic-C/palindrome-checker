@@ -32,5 +32,14 @@ public class PalindromeV1Test {
 
     }
 
+    @Test
+    public void shouldBePalindromeWithUpperCaseInput() {
+
+        String inputTest = "Ana";
+        InputStream in = new ByteArrayInputStream(inputTest.getBytes());
+        System.setIn(in);
+        assertTrue(palindromeV1.isPalindrome());
+
+    }
 
 }
