@@ -2,5 +2,5 @@ A program made to verify if a word is palindrome using Java. A Palindrome is a w
 
 palindrome-checker features:
 
-Verifies if a word is palindrome via used input;
+Verifies if a word is palindrome via user input;
 TDD;
