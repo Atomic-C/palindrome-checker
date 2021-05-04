@@ -15,10 +15,22 @@ public class PalindromeV1Test {
         String inputTest = "madam";
         InputStream in = new ByteArrayInputStream(inputTest.getBytes());
         System.setIn(in);
-
         assertTrue(palindromeV1.isPalindrome());
+
         //assertEquals(true,palindromeV1.isPalindrome());
         // source https://stackoverflow.com/questions/31635698/junit-testing-for-user-input-using-scanner
         // source https://www.youtube.com/watch?v=b5W8bR4y-g4
     }
+
+    @Test
+    public void isNotPalindrome() {
+
+        String inputTest = "Pedro";
+        InputStream in = new ByteArrayInputStream(inputTest.getBytes());
+        System.setIn(in);
+        assertFalse(palindromeV1.isPalindrome());
+
+    }
+
+
 }
