@@ -20,8 +20,15 @@ public class PalindromeV2 {
 
 
         }
-        System.out.println(reversedString);
-        return false;
+        System.out.println(stringHolder + " reversed is: " + reversedString);
+
+        if (stringHolder.equals(reversedString)) {
+            System.out.println("Is palindrome!");
+            return true;
+        } else {
+            System.out.println("Is not palindrome.");
+            return false;
+        }
     }
 
 }
