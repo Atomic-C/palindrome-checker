@@ -20,6 +20,7 @@ public class PalindromeV1Test {
         //assertEquals(true,palindromeV1.isPalindrome());
         // source https://stackoverflow.com/questions/31635698/junit-testing-for-user-input-using-scanner
         // source https://www.youtube.com/watch?v=b5W8bR4y-g4
+        // source https://www.youtube.com/watch?v=1_hhywLAO5o&t=354s
     }
 
     @Test
