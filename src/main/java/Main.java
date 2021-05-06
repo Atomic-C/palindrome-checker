@@ -8,5 +8,8 @@ public class Main {
 
         PalindromeV2 palindromeChecker2 = new PalindromeV2();
         palindromeChecker2.isPalindrome();
+
+        PalindromeV3 palindromeChecker3 = new PalindromeV3();
+        palindromeChecker3.isPalindrome();
     }
 }
