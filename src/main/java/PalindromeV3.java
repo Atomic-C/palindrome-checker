@@ -13,8 +13,18 @@ public class PalindromeV3 {
         System.out.println("You've inserted: " + stringHolder); // Output user input "RACECAR"
 
         StringBuffer sBReverse = new StringBuffer(stringHolder);
-        System.out.println(sBReverse.reverse());
-        return false;
+
+        reversedString = reversedString + sBReverse.reverse();
+
+        System.out.println(stringHolder + " reversed is: " + reversedString);
+
+        if (stringHolder.equals(reversedString)) {
+            System.out.println("Is palindrome!");
+            return true;
+        } else {
+            System.out.println("Is not palindrome.");
+            return false;
+        }
     }
 
 }
