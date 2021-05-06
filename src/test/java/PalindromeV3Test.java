@@ -18,4 +18,26 @@ public class PalindromeV3Test {
         assertTrue(palindromeV3.isPalindrome());
 
     }
+
+    @Test
+    public void isNotPalindrome() {
+
+        String inputTest = "Pedro";
+        InputStream in = new ByteArrayInputStream(inputTest.getBytes());
+        System.setIn(in);
+        assertFalse(palindromeV3.isPalindrome());
+
+    }
+
+    @Test
+    public void shouldBePalindromeWithUpperCaseInput() {
+
+        String inputTest = "Ana";
+        InputStream in = new ByteArrayInputStream(inputTest.getBytes());
+        System.setIn(in);
+        assertTrue(palindromeV3.isPalindrome());
+
+
+    }
+
 }
