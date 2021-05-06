@@ -4,3 +4,6 @@ palindrome-checker features:
 
 Verifies if a word is palindrome via user input;
 TDD;
+
+
+The biggest challenge was finding different ways to reverse strings.
