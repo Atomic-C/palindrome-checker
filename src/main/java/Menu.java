@@ -25,5 +25,8 @@ public class Menu {
             PalindromeV3 palindromeChecker3 = new PalindromeV3();
             palindromeChecker3.isPalindrome();
         }
+        else {
+            System.out.println("Read the menu again.");
+        }
     }
 }
