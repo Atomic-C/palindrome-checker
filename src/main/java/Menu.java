@@ -37,7 +37,7 @@ public class Menu {
             Menu menu = new Menu();
             menu.selectPalindromeVersion();
         }
-        else if (stringHolder.equals("Exit")) {
+        else if (stringHolder.equals("exit")) {
             break;
         }
         else {
