@@ -9,9 +9,12 @@ public class Menu {
         System.out.println("PalindromeV1");
         System.out.println("PalindromeV2");
         System.out.println("PalindromeV3");
+        System.out.println("Exit");
 
         String stringHolder = userInput.nextLine().toLowerCase(); // Read user input
         System.out.println("You've selected: " + stringHolder); // Output user input
+
+        while (stringHolder.equals("Exit") == false) {
 
         if (stringHolder.equals("palindromev1")) {
             PalindromeV1 palindromeChecker = new PalindromeV1(); // Creates new instance of PalindromeV1
@@ -27,6 +30,7 @@ public class Menu {
         }
         else {
             System.out.println("Read the menu again.");
+        }
         }
     }
 }
