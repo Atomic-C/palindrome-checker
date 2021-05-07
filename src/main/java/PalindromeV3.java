@@ -4,7 +4,8 @@ public class PalindromeV3 {
 
     public boolean isPalindrome() {
 
-        Scanner userInput = new Scanner(System.in); // Receive user input ere
+        Scanner userInput = new Scanner(System.in); // Receive user input here
+
         System.out.println("Insert a word");
 
 
