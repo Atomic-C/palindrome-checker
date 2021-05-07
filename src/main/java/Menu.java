@@ -22,6 +22,7 @@ public class Menu {
 
             Menu menu = new Menu();
             menu.selectPalindromeVersion();
+            break;
         }
         else if (stringHolder.equals("palindromev2")) {
             PalindromeV2 palindromeChecker2 = new PalindromeV2();
@@ -29,6 +30,7 @@ public class Menu {
 
             Menu menu = new Menu();
             menu.selectPalindromeVersion();
+            break;
         }
         else if (stringHolder.contains("palindromev3")) {
             PalindromeV3 palindromeChecker3 = new PalindromeV3();
@@ -36,6 +38,7 @@ public class Menu {
 
             Menu menu = new Menu();
             menu.selectPalindromeVersion();
+            break;
         }
         else if (stringHolder.equals("exit")) {
             break;
@@ -44,6 +47,7 @@ public class Menu {
             System.out.println("Read the menu again.");
             Menu menu = new Menu();
             menu.selectPalindromeVersion();
+            break;
         }
         }
     }
